@@ -15,3 +15,5 @@ someinternalhost_IP = 35.210.255.185
 
 testapp_IP = 35.221.142.125
 testapp_port = 9292
+
+Выполнено ДЗ по Packer, сделаны все пункты
