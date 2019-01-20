@@ -17,3 +17,10 @@ testapp_IP = 35.221.142.125
 testapp_port = 9292
 
 Выполнено ДЗ по Packer, сделаны все пункты
+
+Сделана первая часть домашки по терраформу, основная проблема была с ключами, для `.examle` поменял ключи на 
+```
+public_key_path = "~/.ssh/authorized_keys"
+private_key_path = "~/.ssh/authorized_keys"
+```
+и тесты прошли
