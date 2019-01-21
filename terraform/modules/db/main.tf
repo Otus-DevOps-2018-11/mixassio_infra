@@ -18,7 +18,6 @@ resource "google_compute_instance" "db" {
   metadata {
     ssh-keys = "mihailbondarev:${file(var.public_key_path)}"
   }
-  
 }
 
 # Правило firewall
