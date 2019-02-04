@@ -8,7 +8,7 @@ variable zone {
 
 variable app_disk_image {
   description = "Disk image for reddit app"
-  default     = "reddit-app-base"
+  default     = "reddit-app-base-new"
 }
 
 variable private_key_path {
