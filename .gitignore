@@ -1,6 +1,5 @@
 .vagrant
 ubuntu-xenial-16.04-cloudimg-console.log
-Vagrantfile
 ./packer/variables.json
 *.tfstate
 *.tfstate.*.backup
@@ -10,3 +9,7 @@ Vagrantfile
 *.retry
 jdauphant.nginx
 vault.key
+# Vagrant & molecule .vagrant/
+*.log
+*.pyc
+.molecule .cache .pytest_cache
